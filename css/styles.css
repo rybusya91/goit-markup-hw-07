@@ -121,7 +121,7 @@ ul {
   list-style: none;
 }
 
-.header-link {
+.nav-link {
   margin-right: auto;
   font-weight: 500;
   font-size: 14px;
@@ -209,7 +209,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.header-link {
+.nav-link {
   color: var(--primary-color);
 }
 
