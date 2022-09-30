@@ -195,13 +195,15 @@ ul {
   transition: color var(--animation);
 }
 
-.web {
-  color: var(--accent-color);
-  text-decoration: none;
+.logo__dark {
+  color: #000;
+  
+  
 }
+
 .logo {
   margin-right: 93px;
-  color: #000;
+  color: var(--accent-color);
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -592,7 +594,9 @@ ul {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
 }
-
+.logo__light {
+  color: var(--text-color);
+}
 .footer-item {
   display: block;
 }
