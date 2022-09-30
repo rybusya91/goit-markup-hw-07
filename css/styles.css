@@ -709,7 +709,7 @@ ul {
   background-color: var(--accent-color);
   color: var(--text-color);
 }
-.social-link-member {
+.social-link__icon {
   color: #afb1b8;
 }
 /* модальное окно */
