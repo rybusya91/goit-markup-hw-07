@@ -76,7 +76,7 @@ ul {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 /* header */
-.site-nav,
+.nav__list,
 .contact-nav {
   display: flex;
   margin-left: auto;
@@ -88,7 +88,7 @@ ul {
 }
 
 /* header */
-.site-nav .link,
+.nav__list .link,
 .contacts-nav .link {
   display: flex;
   display: block;
