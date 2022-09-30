@@ -64,11 +64,11 @@ ul {
   color: var(--primary-color);
 }
 
-.header__container {
+.box {
   display: flex;
   align-items: center;
 }
-.feature,
+.section__item,
 .item {
   --items: 4;
 }
@@ -281,7 +281,7 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.content-tl {
+.section__title {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
@@ -296,13 +296,13 @@ ul {
   padding-bottom: 94px;
 }
 
-.feature-sec {
+.section__list {
   gap: 30px;
   list-style: none;
 }
 
 /* для иконок */
-.icon-box {
+.section__icon {
   display: flex;
   justify-content: center;
   align-items: center;
