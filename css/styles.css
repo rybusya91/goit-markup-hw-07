@@ -321,7 +321,7 @@ ul {
 
 /* секция чем мы занимаемся */
 
-.content-tx {
+.section__text {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
