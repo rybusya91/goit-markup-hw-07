@@ -349,7 +349,7 @@ ul {
   padding-bottom: 94px;
 }
 /* наша команда */
-.flex-container-four {
+.section-team__item {
   background-color: var(--text-color);
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -448,19 +448,19 @@ ul {
   transition: box-shadow var(--animation);
 }
 /* наша команда */
-.cont-section {
+.section-team {
   background-color: #f5f4fa;
 }
-.team {
+.section-team__list {
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
 }
-.team-name {
+.section-team__description {
   text-align: center;
   padding: 30px;
 }
-.content-tl-thre {
+.section-team__name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -469,7 +469,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--primary-color);
 }
-.content-tx-thre {
+.section-team__position {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -649,7 +649,7 @@ ul {
   text-transform: uppercase;
   color: var(--text-color);
 }
-.social-network {
+.social {
   display: flex;
   align-items: center;
   justify-content: center;
