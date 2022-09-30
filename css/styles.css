@@ -330,7 +330,7 @@ ul {
 }
 
 /*Чем мы занимаемся*/
-.content-tl-second {
+.section-works__preview {
   padding-top: 0%;
   margin-bottom: 50px;
   font-weight: 700;
@@ -341,11 +341,11 @@ ul {
   color: var(--primary-color);
 }
 /* чем мы занимаемся */
-.flex-container-gap {
+.section-works__list {
   gap: 30px;
 }
 /* чем мы занимаемся */
-.sec {
+.section-works {
   padding-bottom: 94px;
 }
 /* наша команда */
@@ -523,11 +523,11 @@ ul {
   transition: var(--animation);
 }
 /* чем мы занимаемся позиционирование */
-.thumb {
+.section-works__thumb {
   position: relative;
 }
 /* чем мы занимаемся позиционирование */
-.thumb > .label {
+.section-works__thumb > .section-works__text {
   position: absolute;
   top: 275px;
   right: 50px;
