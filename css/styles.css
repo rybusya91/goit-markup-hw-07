@@ -700,7 +700,7 @@ ul {
   color: var(--text-color);
   transition: background-color var(--animation), color var(--animation);
 }
-.social-icon {
+.social__icon {
   fill: currentColor;
 }
 
