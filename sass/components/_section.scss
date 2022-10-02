@@ -1,0 +1,22 @@
+.section__list {
+    gap: 30px;
+    list-style: none;
+}
+/* для иконок */
+.section__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    background-position: center;
+    background-size: 70px;
+}
+
+.section__img {
+    max-width: 70px;
+    max-height: 70px;
+}
