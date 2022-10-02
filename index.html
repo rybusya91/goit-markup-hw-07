@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -29,7 +30,7 @@
             <li><a href="" class="nav link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="nav__contact  box list">
+        <ul class="nav__contact box list">
           <li class="nav__current">
             <a href="mailto:info@devstudio.com" class="link">
               <svg class="icon-header" width="16" height="12">
@@ -58,7 +59,7 @@
           <button data-modal-open class="btn" type="button">Заказать услугу</button>
         </div>
       </section>
-<!-- aside -->
+      <!-- aside -->
       <section class="section">
         <div class="box container">
           <h2 class="visually-hidden">Особенности компании</h2>
@@ -117,20 +118,20 @@
           <ul class="box section-works__list list">
             <li class="box">
               <div class="section-works__thumb">
-              <img src="./images/img(1).jpg" alt="набор текста" width="370" />
-              <p class="section-works__text">Десктопні додатки</p>
+                <img src="./images/img(1).jpg" alt="набор текста" width="370" />
+                <p class="section-works__text">Десктопні додатки</p>
               </div>
             </li>
             <li class="box">
               <div class="section-works__thumb">
-              <img src="./images/img(2).jpg" alt="сверяет информацию" width="370" />
-              <p class="section-works__text">Мобільні додатки</p>
+                <img src="./images/img(2).jpg" alt="сверяет информацию" width="370" />
+                <p class="section-works__text">Мобільні додатки</p>
               </div>
             </li>
             <li class="box">
               <div class="section-works__thumb">
-              <img src="./images/img(3).jpg" alt="выбор палитры цветов в планшете" width="370" />
-              <p class="section-works__text">Дизайнерські рішення</p>
+                <img src="./images/img(3).jpg" alt="выбор палитры цветов в планшете" width="370" />
+                <p class="section-works__text">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
@@ -439,11 +440,11 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="foot-adress">
+        <div class="footer-aside">
           <a href="Index.html" class="logo link">Web<span class="logo__light">Studio</span></a>
           <address>
             <ul class="list">
-              <li class="footer-item footer-it">
+              <li class="footer-aside__item footer-it">
                 <a
                   href="https://bit.ly/3pXMvUd"
                   target="_blank"
@@ -452,10 +453,10 @@
                   >г. Киев, пр-т Леси Украинки,26</a
                 >
               </li>
-              <li class="footer-item footer-it">
+              <li class="footer-aside__item footer-it">
                 <a href="mailto:info@devstudio.com" class="contact-foot link">info@example.com</a>
               </li>
-              <li class="footer-item">
+              <li class="footer-aside__item">
                 <a href="tel:+380961111111" class="contact-foot link">+380961111111</a>
               </li>
             </ul>
@@ -521,15 +522,20 @@
         <div class="subscription-footer">
           <p class="footer-ption-title">Підпишіться на розсилку</p>
           <form class="footer-js-speaker-form" autocomplete="on">
-           
-            <label class="footer-user-email" for="user-email"> 
-              <input class="foot-form-mail" type="email" name="email" placeholder="E-mail" id="user-email"></label>
-              <button class="footer-subscription-button" type="submit">
+            <label class="footer-user-email" for="user-email">
+              <input
+                class="foot-form-mail"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                id="user-email"
+            /></label>
+            <button class="footer-subscription-button" type="submit">
               <span class="footer-subscription-button-size">Підписатися</span>
               <svg class="footer-subscription-icon" width="24" height="24">
                 <use href="./images/icon.svg#icon-send"></use>
               </svg>
-              </button>
+            </button>
           </form>
         </div>
       </div>
@@ -537,32 +543,41 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal" role="group">
         <button data-modal-close class="modal-close" type="button">
-          <svg class="modal-close-icon" width="11" height="11"><use href="./images/icon.svg#cross"></use>
+          <svg class="modal-close-icon" width="11" height="11">
+            <use href="./images/icon.svg#cross"></use>
           </svg>
         </button>
-        <form class="form js-speaker-form" autocomplete="on" >
-          <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p> 
+        <form class="form js-speaker-form" autocomplete="on">
+          <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
           <div class="modal-form">
             <label class="form-label" for="name">
               <span class="form-label-text">Ім'я</span>
               <span class="form-label-name">
-                <input class="form-input" type="text" name="name" id="name" autofocus required minlength="4"/>
+                <input
+                  class="form-input"
+                  type="text"
+                  name="name"
+                  id="name"
+                  autofocus
+                  required
+                  minlength="4"
+                />
                 <svg class="modal-icon" width="12" height="12">
                   <use href="./images/icon.svg#vector-name"></use>
                 </svg>
               </span>
             </label>
-          
+
             <label class="form-label" for="tel">
               <span class="form-label-text">Телефон</span>
-                <span class="form-label-name">
-                  <input class="form-input" type="tel" name="tel" id="tel" required />
-                  <svg class="modal-icon" width="13" height="13">
-                    <use href="./images/icon.svg#vector-tel"></use>
-                  </svg>
-                </span>
+              <span class="form-label-name">
+                <input class="form-input" type="tel" name="tel" id="tel" required />
+                <svg class="modal-icon" width="13" height="13">
+                  <use href="./images/icon.svg#vector-tel"></use>
+                </svg>
+              </span>
             </label>
-         
+
             <label class="form-label" for="email">
               <span class="form-label-text">Пошта</span>
               <span class="form-label-name">
@@ -572,44 +587,52 @@
                 </svg>
               </span>
             </label>
-          
+
             <label for="feedback">
               <span class="form-label-name">Коментар</span>
-              <textarea class="register-form" name="feedback" id="feedback" rows="5" placeholder="Введіть текст"></textarea> 
+              <textarea
+                class="register-form"
+                name="feedback"
+                id="feedback"
+                rows="5"
+                placeholder="Введіть текст"
+              ></textarea>
             </label>
           </div>
 
           <div class="modal-checkbox">
             <label class="reg-form">
-              <input class="register-checkbox visually-hidden" type="checkbox" name="agreement"/> 
+              <input class="register-checkbox visually-hidden" type="checkbox" name="agreement" />
               <svg class="form-checkbox-icon" width="16" height="15">
-                <use class="form-modal-checkbox-uncheck" href="./images/icon.svg#icon-uncheck"></use>
+                <use
+                  class="form-modal-checkbox-uncheck"
+                  href="./images/icon.svg#icon-uncheck"
+                ></use>
                 <use class="form-modal-checkbox-check" href="./images/icon.svg#icon-check"></use>
               </svg>
-                <span class="form-agreement-text">Погоджуюся з розсилкою та приймаю
-                <a class="form-agreement-link" href="./" target="_blank" rel="noopener noreferrer">Умови договору</a>
+              <span class="form-agreement-text"
+                >Погоджуюся з розсилкою та приймаю
+                <a class="form-agreement-link" href="./" target="_blank" rel="noopener noreferrer"
+                  >Умови договору</a
+                >
               </span>
             </label>
-          </div> 
-            <button class="button-form" type="submit">Відправити</button>
-          
+          </div>
+          <button class="button-form" type="submit">Відправити</button>
         </form>
       </div>
-
     </div>
     <script src="./js/modal.js"></script>
-      <script>
-        (() => {
-            document.querySelector('.js-speaker-form').addEventListener('submit', e => {
-                e.preventDefault();
+    <script>
+      (() => {
+        document.querySelector('.js-speaker-form').addEventListener('submit', e => {
+          e.preventDefault();
 
-                new FormData(e.currentTarget).forEach((value, name) =>
-                    console.log(`${name}: ${value}`),
-                );
+          new FormData(e.currentTarget).forEach((value, name) => console.log(`${name}: ${value}`));
 
-                e.currentTarget.reset();
-            });
-        })();
+          e.currentTarget.reset();
+        });
+      })();
     </script>
   </body>
 </html>
