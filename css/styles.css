@@ -163,23 +163,23 @@ ul {
 }
 
 /* иконка эмейл */
-.icon-header {
+.nav__icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: currentColor;
   margin-right: 10px;
 }
-.icon-phone {
+.nav__img {
   width: 10px;
   height: 16px;
   fill: currentColor;
   margin-right: 10px;
 }
-.icon-header:hover,
-.icon-header:focus,
-.icon-phone:hover,
-.icon-phone:focus {
+.nav__icon:hover,
+.nav__icon:focus,
+.nav__img:hover,
+.nav__img:focus {
   color: var(--accent-color);
   transition: var(--animation);
 }
