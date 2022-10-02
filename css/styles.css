@@ -375,17 +375,17 @@ ul {
 }
 
 /* section */
-.btn-small:hover,
-.btn-small:focus {
+.btn__item:hover,
+.btn__item:focus {
   background-color: var(--accent-color);
   color: var(--text-color);
 }
 
-.btn-small:active {
+.btn__item:active {
   background-color: var(--accent-color);
 }
 /* Портфолио */
-.btn-small {
+.btn__item {
   padding: 6px 22px;
   display: inline-block;
   padding: 6px 22px;
