@@ -984,7 +984,7 @@ ul {
   display: flex;
   width: 100%;
 }
-.footer-ption-title {
+.footer__title {
   font-family: 'Roboto';
   margin-bottom: 20px;
   font-style: normal;
@@ -1029,11 +1029,11 @@ ul {
   height: 24px;
   margin-left: 12px;
 }
-.subscription-footer {
+.footer__button {
   margin-left: 95px;
 }
 
-.subscription-footer input::placeholder {
+.footer__button input::placeholder {
   font-size: 16px;
   line-height: 20px;
   color: #757575;
