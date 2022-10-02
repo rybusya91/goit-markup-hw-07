@@ -10,14 +10,19 @@
     color: var(--text-color);
     border: none;
     text-align: center;
-}
-.btn:hover,
-.btn:focus {
+
+&:hover,
+&:focus {
     background-color: #188ce8;
     color: var(--text-color);
     transition: var(--animation);
 }
 
-.btn:active {
+&:active {
     background-color: var(--accent-color);
 }
+
+}
+
+
+
