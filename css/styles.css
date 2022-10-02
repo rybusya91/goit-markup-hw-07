@@ -1,26 +1,27 @@
-:root {
-  /* fonts */
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+/* :root { */
+/* fonts */
+/* --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif; */
 
-  /* text colors */
-  --primary-color: #212121;
+/* text colors */
+/* --primary-color: #212121;
   --secondary-color: #757575;
   --accent-color: #2196f3;
-  --text-color: #ffffff;
+  --text-color: #ffffff; */
 
-  /* bg-color */
-  --bg-cl: #2f303a;
+/* bg-color */
+/* --bg-cl: #2f303a; */
 
-  /* отступы между элементами */
-  --indent: 30px;
+/* отступы между элементами */
+/* --indent: 30px;
   --filter-indent: 8px;
 
   --items: 4;
   --linear-gradient: rgba(47, 48, 58, 0.4);
 
   --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
+
 img {
   display: block;
 }
@@ -68,13 +69,13 @@ ul {
   display: flex;
   align-items: center;
 }
-.section__item,
+/* .section__item,
 .item {
   --items: 4;
 }
 .item {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-}
+} */
 /* header */
 .nav__list,
 .nav__contact {
@@ -244,7 +245,7 @@ ul {
   background-color: var(--bg-cl);
 }
 
-.btn:hover,
+/* .btn:hover,
 .btn:focus {
   background-color: #188ce8;
   color: var(--text-color);
@@ -252,9 +253,9 @@ ul {
 }
 .btn:active {
   background-color: var(--accent-color);
-}
+} */
 /* accent color #2196f3  */
-.btn {
+/* .btn {
   min-width: 216px;
   border-radius: 4px;
   padding: 10px 32px;
@@ -266,7 +267,7 @@ ul {
   color: var(--text-color);
   border: none;
   text-align: center;
-}
+} */
 /* cкрытый h */
 .visually-hidden {
   position: absolute;

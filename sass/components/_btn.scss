@@ -1,0 +1,23 @@
+.btn {
+    min-width: 216px;
+    border-radius: 4px;
+    padding: 10px 32px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    background-color: #2196f3;
+    color: var(--text-color);
+    border: none;
+    text-align: center;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #188ce8;
+    color: var(--text-color);
+    transition: var(--animation);
+}
+
+.btn:active {
+    background-color: var(--accent-color);
+}
