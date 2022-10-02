@@ -641,14 +641,14 @@ ul {
   align-items: baseline;
 }
 /* присоединяйтесь */
-.footer-tittle {
+.section-social__title {
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--text-color);
 }
-.social {
+.section-social__list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -688,7 +688,7 @@ ul {
   height: 44px;
 }
 
-.social-link {
+.section-social__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -703,8 +703,8 @@ ul {
   fill: currentColor;
 }
 
-.social-link:hover,
-.social-link:focus {
+.section-social__link:hover,
+.section-social__link:focus {
   background-color: var(--accent-color);
   color: var(--text-color);
 }
