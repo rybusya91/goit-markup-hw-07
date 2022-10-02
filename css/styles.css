@@ -976,17 +976,17 @@ ul {
 }
 
 /* футер подписаться эмейл кнопка  */
-.footer-js-speaker-form {
+.footer__form {
   display: flex;
   width: 570px;
   gap: 12px;
   text-align: center;
 }
-.footer-user-email {
+.footer__label {
   display: flex;
   width: 100%;
 }
-.footer-ption-title {
+.footer__title {
   font-family: 'Roboto';
   margin-bottom: 20px;
   font-style: normal;
@@ -1000,7 +1000,7 @@ ul {
   color: var(--text-color);
 }
 
-.footer-subscription-button {
+.footer__btn {
   color: #fff;
   display: flex;
   justify-content: center;
@@ -1023,24 +1023,23 @@ ul {
   border-color: var(--accent-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-subscription-button-size {
-}
+
 .footer-subscription-icon {
   fill: #fff;
   width: 24px;
   height: 24px;
   margin-left: 12px;
 }
-.subscription-footer {
+.footer__button {
   margin-left: 95px;
 }
 
-.subscription-footer input::placeholder {
+.footer__button input::placeholder {
   font-size: 16px;
   line-height: 20px;
   color: #757575;
 }
-.foot-form-mail {
+.footer__email {
   flex-grow: 1;
   padding: 16px;
   height: 50px;
