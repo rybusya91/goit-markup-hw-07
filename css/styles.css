@@ -359,16 +359,16 @@ ul {
 }
 
 /*Портфолио*/
-.button-one:active {
+.btn__list:active {
   color: var(--text-color);
 }
-.button-one {
+.btn__list {
   display: flex;
   justify-content: center;
   gap: var(--filter-indent);
   margin-bottom: 50px;
 }
-.button {
+.btn__section {
   border: none;
   padding-top: 94px;
   padding-bottom: 94px;
