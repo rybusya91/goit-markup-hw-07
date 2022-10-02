@@ -132,8 +132,8 @@ ul {
   transition: color var(--animation);
 }
 
-.header-nav:hover,
-.header-nav:focus,
+.nav__item:hover,
+.nav__item:focus,
 .header-link:hover,
 .header-link:focus,
 .nav__current:hover,
@@ -141,7 +141,7 @@ ul {
   color: var(--accent-color);
 }
 /* синяя полоска вверху */
-.header-nav::after {
+.nav__item::after {
   content: '';
   display: block;
   position: absolute;
@@ -152,8 +152,8 @@ ul {
   border-radius: 2px;
   background-color: var(--accent-color);
 }
-.header-nav,
-.header-nav {
+.nav__item,
+.nav__item {
   position: relative;
   font-weight: 500;
   font-size: 14px;
