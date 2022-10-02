@@ -619,12 +619,12 @@ ul {
   color: var(--text-color);
 }
 
-.contact-foot:hover,
-.contact-foot:focus {
+.footer-aside__contact:hover,
+.footer-aside__contact:focus {
   color: var(--text-color);
   transition: var(--animation);
 }
-.contact-foot {
+.footer-aside__contact {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
