@@ -602,10 +602,6 @@ img {
   letter-spacing: 0.03em;
 }
 
-.logo__light {
-  color: var(--text-color);
-}
-
 .footer-aside__item {
   display: block;
 }
@@ -1248,6 +1244,10 @@ img {
 
 .modal-form-spec {
   opacity: 1;
+}
+
+.logo__light {
+  color: var(--text-color);
 }
 
 .logo__dark {
