@@ -4,3 +4,12 @@
     padding-right: 15px;
     margin: 0 auto;
 }
+.box {
+    display: flex;
+    align-items: center;
+}
+/* контейнеры в футерe */
+.footer>.container {
+    display: flex;
+    align-items: baseline;
+}
