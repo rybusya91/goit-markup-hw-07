@@ -412,12 +412,12 @@ ul {
 }
 
 /* описание внутри карточек */
-.card-description {
+.card__description {
   padding: 24px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
-.content-title {
+.card__title {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -425,7 +425,7 @@ ul {
   letter-spacing: 0.06em;
   color: var(--primary-color);
 }
-.content-text {
+.card__text {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -433,17 +433,17 @@ ul {
   color: var(--secondary-color);
 }
 /* тень для карточек */
-.card-link:hover .overlay-text,
-.card-link:focus .overlay-text {
+.card__link:hover .card__desk,
+.card__link:focus .card__desk {
   transform: translatey(0);
 }
 
-.card-link:hover,
-.card-link:focus {
+.card__link:hover,
+.card__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.card-link {
+.card__link {
   display: block;
 
   transition: box-shadow var(--animation);
@@ -549,7 +549,7 @@ ul {
 }
 
 /* выезжающий текст на карточках */
-.projekt-overlay {
+.card__overlay {
   position: relative;
   width: 370px;
   height: 294px;
@@ -557,7 +557,7 @@ ul {
   /* transform: translatey(-100%); */
 }
 
-.overlay-text {
+.card__desk {
   position: absolute;
   top: 0;
   left: 0;
@@ -575,8 +575,7 @@ ul {
   transform: translatey(100%);
   transition: transform var(--animation);
 }
-.overlay-text
- 
+
 /* footer */
 .footer-logo {
   display: block;
